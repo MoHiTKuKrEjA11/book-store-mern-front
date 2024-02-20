@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "https://backend-book-store-5drc.onrender.com",
+				target: "https://backend-book-store-gs3k.onrender.com",
 				changeOrigin: true,
 				secure: false,
 			},
