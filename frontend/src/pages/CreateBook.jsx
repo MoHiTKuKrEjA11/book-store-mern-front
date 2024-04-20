@@ -18,7 +18,7 @@ const CreateBook = () => {
     };
     setLoading(true);
     axios
-    .post('https://backend-book-store-gs3k.onrender.com/books',data)
+    .post('/books',data)
     .then(()=>{
       setLoading(false);
       navigate('/');
