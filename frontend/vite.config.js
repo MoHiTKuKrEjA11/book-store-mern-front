@@ -10,8 +10,6 @@ export default defineConfig({
 		proxy: {
 			"/books": {
 				target: "https://backend-book-store-gs3k.onrender.com",
-				changeOrigin: true,
-				secure: false,
 			},
 		},
 	},
